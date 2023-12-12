@@ -52,7 +52,7 @@ body.loaded main {
   
   .bg-text {
     position: absolute;
-    width: 100vw;
+    width: 100%;
     left: 50%;
     margin-top: 20px;
     transform: translate(-50%, -50%);
@@ -61,7 +61,7 @@ body.loaded main {
     color: #6b2020;
     opacity: 0.3;
     transition: opacity 0.5s ease-in-out;
-    font-size: 4.5rem;
+    font-size: 4.1rem;
   }
   
   .main-title:hover .bg-text {
@@ -136,5 +136,13 @@ body.loaded main {
       width: 35px; /* Ulteriore riduzione della larghezza massima per adattarsi a schermi molto piccoli */
       height: 35px;
       margin-right: 2vw; /* Riduci ulteriormente il margine tra le immagini su schermi molto piccoli */
+    }
+  }
+
+  @media screen and (max-width: 547px) {
+    .skills img {
+      width: 27px; /* Ulteriore riduzione della larghezza massima per adattarsi a schermi molto piccoli */
+      height: 27px;
+      margin-right: 1vw; /* Riduci ulteriormente il margine tra le immagini su schermi molto piccoli */
     }
   }
